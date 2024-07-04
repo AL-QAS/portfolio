@@ -1,0 +1,24 @@
+.app__aboutMe-container{
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.app__aboutMe-container_content{
+    flex:1;
+    max-width:60rem;
+   
+}
+
+.app__aboutMe-container_content p{
+    font-size: 1.6rem;
+    line-height:26px;
+    color:var(--gray);
+    margin:4rem 0
+}
+
+@media screen and (max-width: 768px){
+    .app__aboutMe-container{
+        flex-direction: column;
+    }
+}
